@@ -53,7 +53,7 @@
                   <li id="publishDate">Last Published: 2015-06-30
                       <span class="divider">|</span>
                    </li>
-                  <li id="projectVersion">Version: 0.1
+                  <li id="projectVersion">Version: 0.2-SNAPSHOT
                       </li>
                       
                 
@@ -75,6 +75,13 @@
   
             <a href="#"><i class="none"></i>Introduction</a>
           </li>
+                                                                  
+      <li>
+  
+                          <a href="download.html" title="Downloads">
+          <i class="icon-chevron-right"></i>
+        Downloads</a>
+                  </li>
                 
       <li>
   
@@ -199,30 +206,35 @@
         <div id="bodyColumn"  class="span9" >
                                   
             <h1>spinach - A scalable Java Disque client</h1>
-<p>Spinach is a scalable thread-safe Disque client providing both synchronous and asynchronous APIs. Multiple threads may share one connection. Spinach is based on <a class="externalLink" href="https://github.com/mp911de/lettuce">lettuce</a>. Multiple connections are efficiently managed by the excellent netty NIO framework.</p>
+<p>Spinach is a scalable thread-safe Disque client providing both synchronous and asynchronous APIs. Multiple threads may share one connection if they do not use blocking commands. Spinach is based on <a class="externalLink" href="https://github.com/mp911de/lettuce">lettuce</a>. Multiple connections are efficiently managed by the excellent netty NIO framework.</p>
 
 <ul>
   
 <li>Works with Java 6, 7 and 8</li>
   
-<li>synchronous and asynchronous connections</li>
+<li><a class="externalLink" href="https://github.com/mp911de/spinach/wiki/Basic-usage">synchronous</a> and <a class="externalLink" href="https://github.com/mp911de/spinach/wiki/Asynchronous-Connections">asynchronous</a> APIs</li>
+  
+<li><a class="externalLink" href="https://github.com/mp911de/spinach/wiki/SSL-Connections">SSL</a> and <a class="externalLink" href="https://github.com/mp911de/spinach/wiki/Unix-Domain-Sockets">Unix Domain Socket</a> connections</li>
   
 <li><a class="externalLink" href="https://github.com/mp911de/lettuce/wiki/Codecs">Codecs</a> (for UTF8/bit/JSON etc. representation of your data)</li>
 </ul>
+<p>See the <a class="externalLink" href="https://github.com/mp911de/spinach/wiki">Wiki</a> for more docs.</p>
 <div class="section">
-<h2><a name="Maven_ArtifactsDownload"></a>Maven Artifacts/Download</h2>
-<p>Currently there are no releases of spinach are available in the maven central repository. You can obtain the library from <a class="externalLink" href="https://oss.sonatype.org/content/repositories/snapshots/">https://oss.sonatype.org/content/repositories/snapshots/</a></p>
+<h2><a name="BinariesDownload"></a>Binaries/Download</h2>
+<p>Binaries and dependency information for Maven, Ivy, Gradle and others can be found at <a class="externalLink" href="http://search.maven.org">http://search.maven.org</a>.</p>
+<p>Releases of spinach are available in the maven central repository. Take also a look at the <a class="externalLink" href="https://github.com/mp911de/spinach/wiki/Download">Download</a> page in the <a class="externalLink" href="https://github.com/mp911de/lettuce/wiki">Wiki</a>.</p>
+<p>Example for Maven:</p>
 
 <div class="source">
 <div class="source">
 <pre>&lt;dependency&gt;
   &lt;groupId&gt;biz.paluch.redis&lt;/groupId&gt;
   &lt;artifactId&gt;spinach&lt;/artifactId&gt;
-  &lt;version&gt;0.1-SNAPSHOT&lt;/version&gt;
+  &lt;version&gt;0.1&lt;/version&gt;
 &lt;/dependency&gt;
 </pre></div></div>
-<p>All versions: <a class="externalLink" href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22biz.paluch.redis%22%20AND%20a%3A%22lettuce%22">Maven Central</a></p>
-<p>Snapshots: <a class="externalLink" href="https://oss.sonatype.org/#nexus-search;gav~biz.paluch.redis~lettuce~~~">Sonatype OSS Repository</a> </p></div>
+<p>All versions: <a class="externalLink" href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22biz.paluch.redis%22%20AND%20a%3A%spinach%22">Maven Central</a></p>
+<p>Snapshots: <a class="externalLink" href="https://oss.sonatype.org/#nexus-search;gav~biz.paluch.redis~spinach~~~">Sonatype OSS Repository</a> </p></div>
                   </div>
             </div>
           </div>
