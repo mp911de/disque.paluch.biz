@@ -1,6 +1,7 @@
 biz.paluch.spinach
 biz.paluch.spinach.api
 biz.paluch.spinach.api.async
+biz.paluch.spinach.api.rx
 biz.paluch.spinach.api.sync
 biz.paluch.spinach.impl
 biz.paluch.spinach.output
