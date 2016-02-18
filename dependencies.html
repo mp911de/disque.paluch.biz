@@ -53,7 +53,7 @@
                   <li id="publishDate">Last Published: 2016-02-18
                       <span class="divider">|</span>
                    </li>
-                  <li id="projectVersion">Version: 0.3
+                  <li id="projectVersion">Version: 0.4-SNAPSHOT
                       </li>
                       
                 
@@ -567,7 +567,7 @@
 <div class="section">
 <h3><a name="Dependency_Tree"></a>Dependency Tree</h3>
 <ul>
-<li>biz.paluch.redis:spinach:jar:0.3 <img id="_img1" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep0', '_img1' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep0" style="display:none">
+<li>biz.paluch.redis:spinach:jar:0.4-SNAPSHOT <img id="_img1" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep0', '_img1' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep0" style="display:none">
 <table border="0" class="table table-striped">
 <tr class="a">
 <th>spinach</th></tr>
@@ -1416,20 +1416,8 @@
 <th>Snapshot</th>
 <th>Blacklisted</th></tr>
 <tr class="b">
-<td>daimler-external</td>
-<td><a class="externalLink" href="http://repo.devhub.paluch.biz/content/repositories/daimler-external">http://repo.devhub.paluch.biz/content/repositories/daimler-external</a></td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td></tr>
-<tr class="a">
-<td>paluch-snapshots</td>
-<td><a class="externalLink" href="http://repo.devhub.paluch.biz/content/repositories/snapshots">http://repo.devhub.paluch.biz/content/repositories/snapshots</a></td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td></tr>
-<tr class="b">
-<td>paluch-releases</td>
-<td><a class="externalLink" href="http://repo.devhub.paluch.biz/content/repositories/releases">http://repo.devhub.paluch.biz/content/repositories/releases</a></td>
+<td>sonatype-nexus-staging</td>
+<td><a class="externalLink" href="https://oss.sonatype.org/service/local/staging/deploy/maven2">https://oss.sonatype.org/service/local/staging/deploy/maven2</a></td>
 <td>Yes</td>
 <td>No</td>
 <td>Yes</td></tr>
@@ -1440,41 +1428,29 @@
 <td>No</td>
 <td>No</td></tr>
 <tr class="b">
-<td>paluch-all-repositories</td>
-<td><a class="externalLink" href="http://repo.devhub.paluch.biz/content/groups/all-repositories">http://repo.devhub.paluch.biz/content/groups/all-repositories</a></td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td></tr>
-<tr class="a">
 <td>apache.nexus.staging</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging/">https://repository.apache.org/content/repositories/staging/</a></td>
 <td>Yes</td>
 <td>No</td>
 <td>No</td></tr>
-<tr class="b">
+<tr class="a">
 <td>apiviz.release</td>
 <td><a class="externalLink" href="http://apiviz.googlecode.com/svn/site/repo/mvn/release">http://apiviz.googlecode.com/svn/site/repo/mvn/release</a></td>
 <td>Yes</td>
 <td>No</td>
 <td>No</td></tr>
-<tr class="a">
+<tr class="b">
 <td>maven2-repository.dev.java.net</td>
 <td><a class="externalLink" href="http://download.java.net/maven/2/">http://download.java.net/maven/2/</a></td>
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>central</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2">https://repo.maven.apache.org/maven2</a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2">http://repo.maven.apache.org/maven2</a></td>
 <td>Yes</td>
 <td>No</td>
 <td>No</td></tr>
-<tr class="a">
-<td>paluch-all-releases</td>
-<td><a class="externalLink" href="http://repo.devhub.paluch.biz/content/repositories/all-releases">http://repo.devhub.paluch.biz/content/repositories/all-releases</a></td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td></tr>
 <tr class="b">
 <td>snapshots.jboss.org</td>
 <td><a class="externalLink" href="http://snapshots.jboss.org/maven2/">http://snapshots.jboss.org/maven2/</a></td>
@@ -1535,7 +1511,7 @@
 <td><a class="externalLink" href="http://repository.jboss.org/maven2//aopalliance/aopalliance/1.0/aopalliance-1.0.jar"><img alt="Found at http://repository.jboss.org/maven2/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1546,7 +1522,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/biz/paluch/redis/lettuce/3.4.1.Final/lettuce-3.4.1.Final.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/biz/paluch/redis/lettuce/3.4.1.Final/lettuce-3.4.1.Final.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1557,7 +1533,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/com/google/code/tempus-fugit/tempus-fugit/1.1/tempus-fugit-1.1.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/com/google/code/tempus-fugit/tempus-fugit/1.1/tempus-fugit-1.1.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1568,7 +1544,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1579,7 +1555,7 @@
 <td><a class="externalLink" href="http://repository.jboss.org/maven2//commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"><img alt="Found at http://repository.jboss.org/maven2/" src="images/icon_success_sml.gif" /></a></td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1590,7 +1566,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.0.34.Final/netty-buffer-4.0.34.Final.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.0.34.Final/netty-buffer-4.0.34.Final.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1601,7 +1577,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.0.34.Final/netty-codec-4.0.34.Final.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/io/netty/netty-codec/4.0.34.Final/netty-codec-4.0.34.Final.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1612,7 +1588,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/io/netty/netty-common/4.0.34.Final/netty-common-4.0.34.Final.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/io/netty/netty-common/4.0.34.Final/netty-common-4.0.34.Final.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1623,7 +1599,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.0.34.Final/netty-handler-4.0.34.Final.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/io/netty/netty-handler/4.0.34.Final/netty-handler-4.0.34.Final.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1634,7 +1610,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.0.34.Final/netty-transport-4.0.34.Final.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/io/netty/netty-transport/4.0.34.Final/netty-transport-4.0.34.Final.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1645,7 +1621,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.0.14/rxjava-1.0.14.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.0.14/rxjava-1.0.14.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1656,7 +1632,7 @@
 <td><a class="externalLink" href="http://repository.jboss.org/maven2//javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"><img alt="Found at http://repository.jboss.org/maven2/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1667,7 +1643,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1678,7 +1654,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1689,7 +1665,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1700,7 +1676,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1711,7 +1687,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//log4j/log4j/1.2.17/log4j-1.2.17.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1722,7 +1698,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1733,7 +1709,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.0/geronimo-atinject_1.0_spec-1.0.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.0/geronimo-atinject_1.0_spec-1.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.0/geronimo-atinject_1.0_spec-1.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1744,7 +1720,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/geronimo/specs/geronimo-jcdi_1.0_spec/1.0/geronimo-jcdi_1.0_spec-1.0.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_1.0_spec/1.0/geronimo-jcdi_1.0_spec-1.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_1.0_spec/1.0/geronimo-jcdi_1.0_spec-1.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1755,7 +1731,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/openwebbeans/openwebbeans-impl/1.2.6/openwebbeans-impl-1.2.6.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/openwebbeans/openwebbeans-impl/1.2.6/openwebbeans-impl-1.2.6.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/openwebbeans/openwebbeans-impl/1.2.6/openwebbeans-impl-1.2.6.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1766,7 +1742,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/openwebbeans/openwebbeans-spi/1.2.6/openwebbeans-spi-1.2.6.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/openwebbeans/openwebbeans-spi/1.2.6/openwebbeans-spi-1.2.6.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/openwebbeans/openwebbeans-spi/1.2.6/openwebbeans-spi-1.2.6.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1777,7 +1753,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/openwebbeans/test/cditest/1.2.6/cditest-1.2.6.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/openwebbeans/test/cditest/1.2.6/cditest-1.2.6.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/openwebbeans/test/cditest/1.2.6/cditest-1.2.6.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1788,7 +1764,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/openwebbeans/test/cditest-owb/1.2.6/cditest-owb-1.2.6.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/openwebbeans/test/cditest-owb/1.2.6/cditest-owb-1.2.6.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/openwebbeans/test/cditest-owb/1.2.6/cditest-owb-1.2.6.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1799,7 +1775,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/xbean/xbean-asm5-shaded/3.17/xbean-asm5-shaded-3.17.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm5-shaded/3.17/xbean-asm5-shaded-3.17.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm5-shaded/3.17/xbean-asm5-shaded-3.17.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1810,7 +1786,7 @@
 <td>-</td>
 <td><a class="externalLink" href="https://repository.apache.org/content/repositories/staging//org/apache/xbean/xbean-finder-shaded/3.17/xbean-finder-shaded-3.17.jar"><img alt="Found at https://repository.apache.org/content/repositories/staging/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-finder-shaded/3.17/xbean-finder-shaded-3.17.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/apache/xbean/xbean-finder-shaded/3.17/xbean-finder-shaded-3.17.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1821,7 +1797,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.6.1/assertj-core-1.6.1.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.6.1/assertj-core-1.6.1.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1832,7 +1808,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1843,7 +1819,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1854,7 +1830,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.0/HdrHistogram-2.1.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.0/HdrHistogram-2.1.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1865,7 +1841,7 @@
 <td><a class="externalLink" href="http://repository.jboss.org/maven2//org/jboss/interceptor/jboss-interceptor-api/1.1/jboss-interceptor-api-1.1.jar"><img alt="Found at http://repository.jboss.org/maven2/" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/jboss/interceptor/jboss-interceptor-api/1.1/jboss-interceptor-api-1.1.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/jboss/interceptor/jboss-interceptor-api/1.1/jboss-interceptor-api-1.1.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1876,7 +1852,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.2/LatencyUtils-2.0.2.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.2/LatencyUtils-2.0.2.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1887,7 +1863,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1898,7 +1874,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1909,7 +1885,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.4.RELEASE/spring-aop-3.1.4.RELEASE.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.4.RELEASE/spring-aop-3.1.4.RELEASE.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1920,7 +1896,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/springframework/spring-asm/3.1.4.RELEASE/spring-asm-3.1.4.RELEASE.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/springframework/spring-asm/3.1.4.RELEASE/spring-asm-3.1.4.RELEASE.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1931,7 +1907,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.4.RELEASE/spring-beans-3.1.4.RELEASE.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.4.RELEASE/spring-beans-3.1.4.RELEASE.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1942,7 +1918,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.4.RELEASE/spring-context-3.1.4.RELEASE.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.4.RELEASE/spring-context-3.1.4.RELEASE.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1953,7 +1929,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.4.RELEASE/spring-core-3.1.4.RELEASE.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.4.RELEASE/spring-core-3.1.4.RELEASE.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1964,7 +1940,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.4.RELEASE/spring-expression-3.1.4.RELEASE.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.4.RELEASE/spring-expression-3.1.4.RELEASE.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1975,7 +1951,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/org/springframework/spring-test/3.1.4.RELEASE/spring-test-3.1.4.RELEASE.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/org/springframework/spring-test/3.1.4.RELEASE/spring-test-3.1.4.RELEASE.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1986,7 +1962,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -1997,7 +1973,7 @@
 <td>-</td>
 <td>-</td>
 <td>-</td>
-<td><a class="externalLink" href="https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.0.34.Final/netty-transport-native-epoll-4.0.34.Final-linux-x86_64.jar"><img alt="Found at https://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td><a class="externalLink" href="http://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.0.34.Final/netty-transport-native-epoll-4.0.34.Final-linux-x86_64.jar"><img alt="Found at http://repo.maven.apache.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
